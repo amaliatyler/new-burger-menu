@@ -12,18 +12,25 @@
         <header class="header">
             <div class="header__container">
                 <a href="" class="header__logo"></a>
+                <!-- Начало меню -->
                 <div class="header__menu menu">
+                    <!-- меню-бургер для планшетов и пк -->
                     <div class="menu__icon">
                         <span></span>
                     </div>
+                    <!-- тело навигационного меню -->
                     <nav class="menu__body">
                         <ul class="menu__list">
-                            <li><a href="" class="menu__link">Раздел №1</a></li>
-                            <li><a href="" class="menu__link">Раздел №2</a></li>
-                            <li><a href="" class="menu__link">Раздел №3</a></li>
+                            <!-- основной список / основное меню -->
+                            <li><a data-goto=".page__section_1" href="#" class="menu__link">Раздел №1</a></li>
+                            <li><a data-goto=".page__section_2" href="#" class="menu__link">Раздел №2</a></li>
+                            <li><a data-goto=".page__section_3" href="#" class="menu__link">Раздел №3</a></li>
                             <li>
+                                <!-- одна из ссылок главного меню, а так же родитель под-меню -->
                                 <a href="" class="menu__link">Страница №1</a>
+                                <!-- ui-стрелочка для обозначения наличия выпадающего списка на мобильных устройствах -->
                                 <span class="menu__arrow"></span>
+                                <!-- тело под-меню -->
                                 <ul class="menu__sub-list">
                                     <li>
                                         <a href="" class="menu__sub-link">Раздел Страницы №1</a>
